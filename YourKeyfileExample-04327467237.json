@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "YourProjectIdFromGoogleAPIConsole",
+  "private_key_id": "e365141174328547328fjhdjfdjb60e77",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIghredfgdfhjgflYlHwIM\nNREbslxNxVlxSUA3xbh40xc0+90JjtTr3n6wpF\n214mXzITA3/10qth8tgfdhdfgjfgrYjvdxdbjPMjaSBXdUuAOxbVFrA9J5SLBiVB4B8LUfpYfzMRIHh/\nbVBm9IgdF8zBJDUom/Fdt+u+7IPXul90TgrCHgoIQAQrKrQdIFx22E5s8zmhA2O4\nMKbQXngRDacTrJyz4eLgO6u0uI3Xbvl8WwKk+SY4rH9gjcaXKgBoDLSy+ZWNbXWW\nJ55c6E1UOGGFTkMwucqWn/h2VZRqTieU6OaUIG/adVxwl+8z0ZHl8yZy4t2YIUrM\n/AVwTH59AgMBAAECggEACVnxxQDknq9jGYEPDwjFs7eLe8eLRz4ZjtUxqueksOl/\n1ELcz9wGrMdQ7bMdTJ22Kj46uYR4zS/mnRM+SxiVBNXR9pSBkPYYTEbUFSQeyciZ\nuGbDA6+glxn8AO1NyMICUlJ0ZD6qrbmyICA6+rYyRzSd1kvh7hCyeolaFRgu9Mlo\n8W8NIBhYNiO3ps9hdPp+R3Z4/p3Mbee1E65XyxvwzD+RITWPhZylP4VVd2f0ejxp\nrnMmG6bypCEy1qAMmN5WTQ68DOAo84XgXgZGbhy5C3W/GaflCJ4D8QOPamMTlA1U\nObgl6pS0cRayThYvPXuMCY+6xZ/UnUdb+klWlvToQQKBgQDfRlKxDKBnuyDdx7zw\nYn9nvVw6YmE3o2yk0M52DLHJpki9rydBT+kvV3WZDsvK9PREFXSnl4od/5vhf1ED\n43RZ+hUnnm5iq6Sx3CHkDhTZ8otFvMegjQGpi45VDJOzGbNWdXbphwKYrbilExJS\nEoX4+mF+7XcJ+P14hk2KnUPsGQKBgQC18tqzQLp3DNP+lM90KTLWGlimmIEaAY6X\n97qE/CspsruKSSo69vwXWe/EpUzijqI4l8O3iTAKRc14X4V2aUYT+cOCPCtcADiq\nA47pWI9dGNc62F5rdHQU6Sm9ANvd7PtP7SzPIeO0ljDCLziiDq7LW3oIvZexWBUF\nvPuUZDwyBQKBgQCWG/RqXh/VvaSKFsh7IO2hNFk2U4Ai5PedE1lLWpuJBAexp3mP\n2obeskE45w6yY995iqdEKYjNRFVr1KoGIDzQZWclnMmAAwAWJ/aNGb6BDST/fL0F\nvudYMqA9o9gFOIku3ohU1tUzCtCyAtF1Zki2LLexmztF9CWNi1XElJjeuQKBgB+i\nuTn/oCxA879JGoUFAMzPSei1jYT7DlMIBMtImSyn4gnaTNhxx0U8Iv9bCnI+AKC8\napBH7y1qE57BZRBAn6mrfL3xPkzB0Rhmg/u4pTy3q/yUUF54ohJctCAjvRbqNIwi\nHe9p4hCtKI8q7LrouKWtIxvP80cnnIgh4tBbWUgNAoGAfxQd3IsY9ODm41XjFGe2\nsAECK19WQupe7zjWw5PmY6JUdwVCfktJko8X/ZBxG10IoYjuDA6bNQDPAR/hfgEY\nYXjhhA1i3EI8TsZaJ0RvZw23rRux62yIxit5UO+xXAs+gme+Wzm1GTcYF2kgsM1N\nw+kUobJKVI3x3xH1SC6/lD0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "YourServiceAccountName@YourAppDomainOnGoogleConsole.iam.gserviceaccount.com",
+  "client_id": "189324083290582397794494",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/YourServiceAccountName@YourAppDomainOnGoogleConsole.iam.gserviceaccount.com"
+}
