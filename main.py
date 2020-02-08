@@ -10,19 +10,16 @@ def get_service(api_name, api_version, scopes, key_file_location):
     credentials = ServiceAccountCredentials.from_json_keyfile_name(
             key_file_location, scopes=scopes)
 
-    # Build the service object.
     service = build(api_name, api_version, credentials=credentials)
 
     return service
 
 def get_first_profile_id(service):
-    # Use the Analytics service object to get the first profile id.
-
     # Get a list of all Google Analytics accounts for this user
     accounts = service.management().accounts().list().execute()
 
     if accounts.get('items'):
-        # Get the first Google Analytics account.
+        # Choose the first Google Analytics account from all acoounts.
         account = accounts.get('items')[0].get('id')
 
         # Get a list of all the properties for the first account.
@@ -39,15 +36,12 @@ def get_first_profile_id(service):
                     webPropertyId=property).execute()
 
             if profiles.get('items'):
-                # return the first view (profile) id.
                 return profiles.get('items')[0].get('id')
 
     return None
 
 
 def get_results(service, profile_id):
-    # Use the Analytics Service Object to query the Core Reporting API
-    # for the number of sessions within the yesterday.
     yesterday = datetime.strftime(datetime.now() - timedelta(1), '%Y-%m-%d')
     return service.data().ga().get(
             ids='ga:' + profile_id,
@@ -86,7 +80,6 @@ def update_db(results):
                 print("PostgreSQL connection is closed.")
 
 def print_results(results):
-    # Print data nicely for the user.
     if results:
         print ('View (Profile):', results.get('profileInfo').get('profileName'))
         print ('Total Sessions:', results.get('rows')[0][0])
@@ -96,11 +89,11 @@ def print_results(results):
 
 
 def main():
-    # Define the auth scopes to request.
+    # Define the authentication requirements.
     scope = 'https://www.googleapis.com/auth/analytics.readonly'
     key_file_location = 'YourKeyfileLocationFromGoogleAPIConsole'
 
-    # Authenticate and construct service.
+    # Authenticate and construct the output.
     service = get_service(
             api_name='analytics',
             api_version='v3',
